@@ -26,7 +26,7 @@ build: $(OBJFILES)
 
 -include $(DEPS)
 
-clear:
+clean:
 	rm -r obj $(BINNAME)
 
 obj/%.o: src/%.cc
